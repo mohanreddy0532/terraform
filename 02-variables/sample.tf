@@ -33,7 +33,7 @@ variable "demo4" {
 }
 
 output "demo1" {
-  value = var.demo3[1]
+  value = var.demo3[1,0]
 }
 
 output "demo2" {
