@@ -57,4 +57,4 @@ output "input2" {
 #variable "input_shell" {}
 #output "input_shell" {
 #  value = var.input_shell
-}
+#}
