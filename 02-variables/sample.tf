@@ -54,7 +54,7 @@ output "input2" {
 
 ##Variable from Shell Env
 
-variable "input_shell" {}
-output "input_shell" {
-  value = var.input_shell
+#variable "input_shell" {}
+#output "input_shell" {
+#  value = var.input_shell
 }
