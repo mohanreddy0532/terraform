@@ -2,6 +2,6 @@ variable "Demo" {
   default = "Hello variable"
 }
 
-output "demo" {
+output "demo00" {
   value = var.Demo
 }
