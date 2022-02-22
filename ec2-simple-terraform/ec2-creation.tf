@@ -76,8 +76,15 @@ resource "aws_instance" "web" {
 
 
 resource "aws_s3_bucket" "b" {
-  bucket = "my-tf-test-bucket-terratf"
+  bucket = "terraform-s3-mohan"
   acl    = "private"
+#  terraform {
+#    backend "s3" {
+#      bucket = "terraform-s3-mohan"
+#      key    = "sample/terraform.tfstate"
+#      region = "us-east-1"
+#    }
+#  }
 
   tags = {
     Name        = "MyBucket"
